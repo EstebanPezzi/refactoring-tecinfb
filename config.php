@@ -21,7 +21,7 @@ $connection = new mysqli($host, $user, $password, $database);
 
 /**
  * Verificar conexión, si hay error corto interpretación con la función "die"
- * y muestro por pantalla el erro. "Modo Desarrollo"
+ * y muestro por pantalla el error. "Modo Desarrollo"
  */ 
 if ($connection->connect_error) {
     die("Error de conexión: " . $connection->connect_error);
