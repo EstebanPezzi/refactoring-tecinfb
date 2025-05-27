@@ -12,3 +12,5 @@ if ($connection->query($sql) === TRUE) {
     echo "Error al borrar: " . $connection->error;
 }
 ?>
+
+/*HOLA*/
